@@ -29,7 +29,7 @@
         
         #nav-menu {
             background-color: #212121;
-            width: 400px;
+            width: 300px;
             height: 100vh;
             display: flex;
             justify-content: center;
@@ -37,6 +37,7 @@
             top: 0;
             left: -100%;
             transition: 850ms;
+            z-index: 1;
         }
         
         #nav-menu.active {
@@ -110,4 +111,9 @@
         
         #show-menu {
             margin-bottom: 20px;
+        }
+        
+        #body {
+            position: fixed;
+            margin: 15px;
         }
