@@ -17,7 +17,7 @@
   <body>
     <div class="ppalBody">
       <header>
-        <div id="navbar" class="container">
+        <div id="navbar" class="">
           <div>
             <a href="#" class="menu-bars" id="show-menu">
               <i class="fas fa-bars"></i>
@@ -30,18 +30,16 @@
               </h1>
             </a>
           </div>
-          <div id="divFormSearch" class="container col col-6">
+          <div id="divFormSearch" class="container col col-5">
             <form class="col">
-              
-                <div id="divInputSearch" class="">
-                  <input
-                    class="col"
-                    type="search"
-                    placeholder="Search"
-                    aria-label="Search"
-                  />
-                </div>
-              
+              <div id="divInputSearch" class="">
+                <input
+                  class="col"
+                  type="search"
+                  placeholder="Search"
+                  aria-label="Search"
+                />
+              </div>
             </form>
 
             <div class="">
@@ -52,20 +50,25 @@
           </div>
           <div id="iconAdicional" class="container col-3">
             <div class="container">
-                <h1><a href="#"><i class="fas fa-plus-square"></i></a></h1>              
+              <h1>
+                <a href="#"><i class="fas fa-plus-square"></i></a>
+              </h1>
             </div>
 
             <div class="container">
-                <h1><a href="#"><i class="fas fa-th"></i></a></h1>
-              
+              <h1>
+                <a href="#"><i class="fas fa-th"></i></a>
+              </h1>
             </div>
             <div class="container">
-                <h1><a href="#"> <i class="far fa-bell"></i></a></h1>
-              
+              <h1>
+                <a href="#"> <i class="far fa-bell"></i></a>
+              </h1>
             </div>
-            <div class="container">
-                <h1><a href="#"><i class="fas fa-user"></i></a></h1>
-              
+            <div id="iconSession" class="container">
+              <h1>
+                <a href="#"><i class="fas fa-user"></i></a>
+              </h1>
             </div>
           </div>
         </div>
@@ -125,32 +128,208 @@
           </ul>
         </nav>
       </header>
-      <div class="container" id="body">
-        <div class="row">
-          <div class="col">
-            <div id="video" class="col">
-              <div class="row">
-                <iframe
-                  id="vidPpal"
-                  src="https://www.youtube.com/embed/CW7lJH412fM"
-                  frameborder="0"
-                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                  allowfullscreen
-                ></iframe>
-              </div>
+      <div class="col">
 
-              <div class="row">
-                <h1>Pruebas</h1>
-              </div>
+
+        <div class="containter row" id="body"> <!-- Inicia div body -->
+        
+            <div class="container col col-8" id="divIzq"> <!-- Inicia div divIzq -->
+
+                    <div class="container row" id="divListIzq"> <!-- Inicia div divListIzq -->
+
+                        <div class="container col" id="vidPpal"> <!-- Inicia div vidPpal -->
+                            <iframe
+                            id="video"
+                            src="https://www.youtube.com/embed/CW7lJH412fM"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen
+                            ></iframe>
+                        </div> <!-- termina div vidPpal -->
+
+                        <div class="" id="NameVideo"> <!-- Inicia div NameVideo -->
+                            <br>
+                                <div><p><i class="fas fa-map-marker-alt"></i> COLOMBIA</p></div>
+                                <div><h5 class="font-weight-bold">🤣El Empresario de Artistas Loquillo "Maraton Antiestres" 03/09/2020🤣</h5></div>
+                                <div class="row">
+                                    <div class="col-5" id="visual">20.370 visualizaciones  3 sept. 2020</div>
+                                    <div class="col" id="likes">
+                                        <i class="fas fa-thumbs-up"> 407   </i>
+                                        <i class="fas fa-thumbs-down"> 16   </i>
+                                        <i class="fas fa-share"> COMPARTIR   </i>
+                                        <i class="fas fa-bars"> GUARDAR </i>
+                                        <i class="fas fa-ellipsis-h"></i>
+                                    </div>
+                                </div>
+
+                        </div> <!-- Termina div NameVideo -->
+
+
+
+                        <div class="container row" id="suscribir">  <!-- Inicia div suscribir -->
+                            <div class="col-1" id="logoCanal">
+                                <img src="img/logo_canal.jpg" alt="">
+                            </div>
+                            <div class="col" id="nombreCanal">
+                                <p class="c1 font-weight-bold">Funny Youtube - Humor y Entretenimiento</p>
+                                <p class="c2">46.000 suscriptores</p>
+                                <p class="c1 font-weight">🤣El Empresario de Artistas Loquillo "Maraton Antiestres" 03/09/2020🤣</p>
+                                <p class="c3"><a href="#">#Humorcolombiano</a> <a href="#">#Humor</a> <a href="#">#Comedia</a></p>
+                                <p class="c4 font-weight-bold"><a href="#">MOSTRAR MÁS</a></p>
+                            </div>
+                            <div class="col-3" id="btnSuscribir">
+                                <button class="btn font-weight-bold">SUSCRIBIRSE</button>
+                            </div>                            
+                        </div> <!-- Termina div suscribir -->
+
+                        <div class="row" id="addComent"> <!-- Inicia div addComent -->
+                            <div class="col" id="coment">
+                                <div>
+                                    <h6 class="font-weight-normal">21 comentarios <a href="#"><i class="fas fa-sort-amount-down"> ORDENAR POR</i></a>
+                                    </h6>
+                                </div>                                
+                            </div >
+                              
+                        </div> <!-- Termina div addComent -->
+
+                        <div class="row" id="userComent"> <!-- Inicia div userComent -->
+                            <div class="col-2">
+                                <h1>
+                                <i class="fas fa-user"></i>
+                                </h1>                                   
+                            </div>
+                            <div class="col" id="inputComent">
+                                <input type="text" class="form-control" placeholder="Añade un comentario público...">
+                            </div>
+                        </div> <!-- Termina div userComent -->
+
+
+                        <div class="row" id="comentList"> <!-- Inicia div comentList -->
+                            <div class="row" id="comentMessage"> <!-- Inicia div comentMessage -->
+                                    <div class="col-1" id="comentUnit">
+                                        <h1>
+                                            <i class="fab fa-reddit"></i>
+                                        </h1>  
+                                    </div>
+                                    <div class="col" id="comentTexts">
+                                        <p class="p1">Fijado por Funny Youtube - Humor y Entretenimiento <i class="fas fa-ellipsis-v"></i></p>
+                                        
+                                        <p class="p2 font-weight-normal"> <b>Funny Youtube - Humor y Entretenimiento</b>  Hace 3 semanas</p>
+                                        <h6 class="p3 font-weight-bold">ACTIVA LA CAMPANITA Y NO TE OLVIDES DE DAR LIKE</h6>
+                                        <h6 class="iconsComent">
+                                            <a href="#"><i class="fas fa-thumbs-up"> 2  </i></a>
+                                            <a href="#"><i class="fas fa-thumbs-down">   </i></a>
+                                            <a href="#"><i class="fab fa-gratipay"></i>
+                                                RESPONDER</a>
+                                           
+                                        </h6>
+                                        <a href="#"><p class="p4"><i class="fas fa-caret-square-down"></i> Ver respuesta</p></a>
+                                    </div>
+
+                            </div> <!-- Termina div comentMessage -->
+                            
+                            <div class="row" id="comentMessage"> <!-- Inicia div comentMessage -->
+                                <div class="col-1" id="comentUnit">
+                                    <h1>
+                                        <i class="fas fa-horse-head"></i>
+                                    </h1>  
+                                </div>
+                                <div class="col" id="comentTexts">
+                                    <p class="p1 plus"><i class="fas fa-ellipsis-v"></i></p>
+                                  <p class="p2 font-weight-normal"> <b>Ender Javier Rondon</b>  Hace 3 semanas</p>
+                                    <h6 class="p3 font-weight-normal">Primero desde república Dominicana saludos fiel seguidor</h6>
+                                    <h6 class="iconsComent">
+                                        <a href="#"><i class="fas fa-thumbs-up"> 7  </i></a>
+                                        <a href="#"><i class="fas fa-thumbs-down">   </i></a>
+                                        <a href="#"><i class="fab fa-gratipay"></i>
+                                            RESPONDER</a>
+                                       
+                                    </h6>
+                                    
+                                </div>
+
+                            </div> <!-- Termina div comentMessage -->
+
+
+                            <div class="row" id="comentMessage"> <!-- Inicia div comentMessage -->
+                                <div class="col-1" id="comentUnit">
+                                    <h1>
+                                        <i class="fas fa-glasses"></i>
+                                    </h1>  
+                                </div>
+                                <div class="col" id="comentTexts">
+                                    <p class="p1 plus"><i class="fas fa-ellipsis-v"></i></p>
+                                  <p class="p2 font-weight-normal"> <b>Amparo LopezGonzalez</b>  Hace 3 semanas</p>
+                                    <h6 class="p3 font-weight-normal">Definitivamente,  Lo mejor de Blue Radio,  Què lindo es èste personaje tan lindo que es. 😍😍😍</h6>
+                                    <h6 class="iconsComent">
+                                        <a href="#"><i class="fas fa-thumbs-up"> 7  </i></a>
+                                        <a href="#"><i class="fas fa-thumbs-down">   </i></a>
+                                        <a href="#"><i class="fab fa-gratipay"></i>
+                                            RESPONDER</a>
+                                       
+                                    </h6>
+                                   
+                                </div>
+                            </div> <!-- Termina div comentMessage -->
+
+
+                            <div class="row" id="comentMessage"> <!-- Inicia div comentMessage -->
+                                <div class="col-1" id="comentUnit">
+                                    <h1>
+                                        <i class="fas fa-atom"></i>
+                                    </h1>  
+                                </div>
+                                <div class="col" id="comentTexts">
+                                    <p class="p1 plus"><i class="fas fa-ellipsis-v"></i></p>
+                                  <p class="p2 font-weight-normal"> <b>Paul Anderson</b>  Hace 3 semanas</p>
+                                    <h6 class="p3 font-weight-normal">Phenomenal  laughter  con VOZ POPULIIII EL EMPRESARIO Y EL RESTO DEL ELENCO  SON UNOS MOUNSTRUOS  & NOS MANTIENEN CARGADOS  D LA RISA JAJA GEACIAS  & muchas BENDICIONES</h6>
+                                    <h6 class="iconsComent">
+                                        <a href="#"><i class="fas fa-thumbs-up"> 1  </i></a>
+                                        <a href="#"><i class="fas fa-thumbs-down">   </i></a>
+                                        <a href="#"><i class="fab fa-gratipay"></i>
+                                            RESPONDER</a>
+                                       
+                                    </h6>
+                                    <a href="#"><p class="p4"><i class="fas fa-caret-square-down"></i> Ver respuesta</p></a>
+                                </div>
+                            </div> <!-- Termina div comentMessage -->
+
+                        </div> <!-- Termina div comentList -->
+
+
+                        <div class="" id=""> <!-- Inicia div  -->
+
+                        </div> <!-- Termina div  -->
+
+
+
+
+                    </div> <!-- termina div divListIzq -->
+
+                    
+
+            </div> <!-- termina div divIzq -->
+
+            <div class="container col col-4" id="divDer">
+
             </div>
 
-            <div class="col" id="VideoLista">
-              Lista de videos
-              <div class="videoList row">video 1</div>
-            </div>
-          </div>
-        </div>
+
+
+      </div> <!-- Termina div body -->
+
+
+
+
+
+
+
+
+
+
+
       </div>
+      
 
       <footer></footer>
     </div>
@@ -177,3 +356,4 @@
     <script src="js.js"></script>
   </body>
 </html>
+
