@@ -158,11 +158,10 @@ hr {
   margin-right: 20px;
 }
 
-#divIzq {
-}
-
 #divDer {
   background-color: rgb(96, 244, 128);
+  margin: 0px;
+  padding: 0px;
 }
 
 #ppalBody {
@@ -244,7 +243,6 @@ vidPpal embed {
   padding-right: 30px;
   height: 100%;
   width: 100%;
-  
 }
 
 #suscribir {
@@ -289,7 +287,7 @@ vidPpal embed {
 #addComent {
   height: 30px;
   width: 100%;
- 
+
   margin-top: 20px;
   margin-bottom: 0px;
   padding-bottom: 0px;
@@ -345,7 +343,6 @@ vidPpal embed {
 
 #comentMessage {
   width: 100%;
-  
 }
 
 .p1 {
@@ -359,8 +356,8 @@ vidPpal embed {
 }
 
 .plus i {
-    margin-left: 600px;
-  }
+  margin-left: 600px;
+}
 
 .p2 {
   color: rgb(161, 160, 160);
@@ -372,39 +369,157 @@ vidPpal embed {
 #comentTexts {
   padding-right: 0px;
   padding-left: 0px;
- margin-bottom: 20px;
+  margin-bottom: 20px;
   max-height: 500px;
 }
 
-#comentTexts b{
-    color: white;
-    margin-right: 15px;
-  }
-
-  .p3{
-      margin-top: 10px;
-      margin-bottom: 15px;
-      color: white;
-      font-size: 14px;
-  }
-
-.iconsComent a{
-    color: rgb(161, 160, 160);
-    font-size: 13px;
+#comentTexts b {
+  color: white;
+  margin-right: 15px;
 }
 
-.iconsComent i{
-    margin-right: 20px;
+.p3 {
+  margin-top: 10px;
+  margin-bottom: 15px;
+  color: white;
+  font-size: 14px;
 }
-  .p4{
-      margin-top: 10px;
-      margin-bottom: 15px;
-    color: rgb(52, 174, 245);
-  }
-  .p4 i{
-margin-right: 20px;
-  }
 
-  #comentList.row{
-height: 500px;
-  }
+.iconsComent a {
+  color: rgb(161, 160, 160);
+  font-size: 13px;
+}
+
+.iconsComent i {
+  margin-right: 20px;
+}
+.p4 {
+  margin-top: 10px;
+  margin-bottom: 15px;
+  color: rgb(52, 174, 245);
+}
+.p4 i {
+  margin-right: 20px;
+}
+
+#comentList.row {
+  height: 500px;
+}
+
+#promo1 img {
+  width: 100%;
+}
+
+#promo2 {
+  height: 70px;
+  margin: 0px;
+  padding: 0px;
+  border-style: solid;
+  border-color: transparent;
+  border-bottom-color: rgb(124, 124, 123);
+  border-width: thin;
+}
+
+#promo2_1 {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  margin-top: 9px;
+  margin-left: 11px;
+}
+#promo2_1 img {
+  width: 50px;
+}
+
+#promo2_2 {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+.anuncio {
+  font-size: 13px;
+  color: rgb(131, 130, 130);
+}
+
+.anuncio i {
+  margin-right: 5px;
+}
+
+#btnPromo {
+  margin: 0px;
+  padding: 0px;
+  margin-left: 85px;
+}
+
+/* Inicio codigo switche  */
+:root {
+  --color-green: #00a878;
+  --color-red: #fe5e41;
+  --color-button: #fdffff;
+  --color-black: #000;
+}
+.switch-button {
+  display: inline-block;
+}
+.switch-button .switch-button__checkbox {
+  display: none;
+}
+.switch-button .switch-button__label {
+  background-color: var(--color-red);
+  width: 2rem;
+  height: 1rem;
+  border-radius: 1rem;
+  display: inline-block;
+  position: relative;
+}
+.switch-button .switch-button__label:before {
+  transition: 0.2s;
+  display: block;
+  position: absolute;
+  width: 1rem;
+  height: 1rem;
+  background-color: var(--color-button);
+  content: "";
+  border-radius: 50%;
+  box-shadow: inset 0px 0px 0px 1px var(--color-black);
+}
+.switch-button .switch-button__checkbox:checked + .switch-button__label {
+  background-color: var(--color-green);
+}
+.switch-button .switch-button__checkbox:checked + .switch-button__label:before {
+  transform: translateX(1rem);
+}
+
+/* Fin codigo switche  */
+
+#reproAuto {
+  color: rgb(131, 131, 131);
+}
+
+#videoListed {
+  background-color: yellowgreen;
+  margin: 0px;
+  padding: 0px;
+}
+
+#video {
+  background-color: white;
+  margin: 0px;
+  padding: 0px;
+}
+
+#video iframe {
+  height: 125px;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+#textVideo {
+  background-color: red;
+}
+#iconElipse {
+  width: 2%;
+  background-color: yellow;
+}
